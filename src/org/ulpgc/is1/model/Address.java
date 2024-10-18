@@ -6,4 +6,12 @@ public class Address {
     public Address(String calle) {
         this.calle = calle;
     }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
 }
